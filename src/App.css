@@ -1,0 +1,11 @@
+@font-face {
+  font-family: "SEGA LOGO FONT";
+  src: url("Destruido-OVZDd.otf");
+}
+
+h1 {
+  font-family: "SEGA LOGO FONT";
+  font-size: 4em;
+  color: #0ccac4;
+  margin: 0;
+}
