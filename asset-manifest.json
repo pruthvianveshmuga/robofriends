@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/robofriends/static/css/main.9c38ce2f.css",
+    "main.js": "/robofriends/static/js/main.569c4eae.js",
+    "static/media/Destruido-OVZDd.otf": "/robofriends/static/media/Destruido-OVZDd.e5d868dd6977f7dcbbc2.otf",
+    "index.html": "/robofriends/index.html",
+    "main.9c38ce2f.css.map": "/robofriends/static/css/main.9c38ce2f.css.map",
+    "main.569c4eae.js.map": "/robofriends/static/js/main.569c4eae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c38ce2f.css",
+    "static/js/main.569c4eae.js"
+  ]
+}
