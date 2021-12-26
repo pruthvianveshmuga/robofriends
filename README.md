@@ -8,4 +8,4 @@
 
 ## Deploy
 
-- To deploy the app to github pages, run `npm run build`.
+- To deploy the app to github pages, run `npm run deploy`.
