@@ -5,14 +5,18 @@ import Scroll from "../components/Scroll";
 import ErrorBoundary from "../components/ErrorBoundary";
 import "./App.css";
 
-const App = () => {
+const useRobots = () => {
   const [robots, setRobots] = useState([]);
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")
       .then((res) => res.json())
       .then((users) => setRobots(users));
   }, []);
+  return robots;
+};
 
+const App = () => {
+  const robots = useRobots();
   const [searchStr, setSearchStr] = useState("");
 
   const filteredRobots = robots.filter((robot) => {
